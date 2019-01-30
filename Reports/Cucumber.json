@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Verifies the Login Functionality of the Application",
+        "description": "",
+        "id": "warehousemanagement(wms)-application-is-under-test;user-verifies-the-login-functionality-of-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Launch the Chrome Browser",
+            "match": {
+              "location": "WmsStepdefinition.user_Launch_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User hit the WMS application",
+            "match": {
+              "location": "WmsStepdefinition.user_hit_the_WMS_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Enter the Username",
+            "match": {
+              "location": "WmsStepdefinition.user_Enter_the_Username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Enter the Password",
+            "match": {
+              "location": "WmsStepdefinition.user_Enter_the_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User Click the Login Functionality",
+            "match": {
+              "location": "WmsStepdefinition.user_Click_the_Login_Functionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "User Verifies the Purchase Menu",
+        "description": "",
+        "id": "warehousemanagement(wms)-application-is-under-test;user-verifies-the-purchase-menu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User Click the Purchase Menu",
+            "match": {
+              "location": "WmsStepdefinition.user_Click_the_Purchase_Menu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User Click the Raw Materials Goods Recepit Notes",
+            "match": {
+              "location": "WmsStepdefinition.user_Click_the_Raw_Materials_Goods_Recepit_Notes()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User Click the Add New Button",
+            "match": {
+              "location": "WmsStepdefinition.user_Click_the_Add_New_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User Enter the Farmer Supplier Details Add New Menu",
+            "match": {
+              "location": "WmsStepdefinition.user_Enter_the_Farmer_Supplier_Details_Add_New_Menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User Click the Check box Farmer",
+            "match": {
+              "location": "WmsStepdefinition.user_Click_the_Check_box_Farmer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User Contact Details Enter the Name \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test123",
+                  "offset": 37
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User Contact Details Enter the code \"F1543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "F1543",
+                  "offset": 37
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_code(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User Contact Details Enter the Address Line one \"Testaddress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testaddress",
+                  "offset": 49
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Address_Line_one(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User Contact Details Enter the  Address Line two \"Testaddress2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testaddress2",
+                  "offset": 50
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Address_Line_two(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User Contact Details Enter the City/Town \"Erode Tamilnadu India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Erode Tamilnadu India",
+                  "offset": 42
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_City_Town(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User Contact Details Enter the Postal code \"638402\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "638402",
+                  "offset": 44
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Postal_code(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User Contact Details Enter the Landline code \"044\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "044",
+                  "offset": 46
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Landline_code(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User Contact Details Enter the Landline Number \"4364325\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4364325",
+                  "offset": 48
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Landline_Number(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User Contact Details Enter the Mobile Number \"7474747747\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7474747747",
+                  "offset": 46
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_Mobile_Number(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User Contact Details Enter the EmailID \"testsys@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testsys@gmail.com",
+                  "offset": 40
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_EmailID(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User Contact Details Enter the GSTIN number \"35agd32548421s\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35agd32548421s",
+                  "offset": 45
+                }
+              ],
+              "location": "WmsStepdefinition.user_Contact_Details_Enter_the_GSTIN_number(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User Contact Details  Click the Next Button",
+            "match": {
+              "location": "WmsStepdefinition.user_Contact_Details_Click_the_Next_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User Verifies the credentials",
+            "match": {
+              "location": "WmsStepdefinition.user_Verifies_the_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@purchasemenu"
+          }
+        ]
+      }
+    ],
+    "name": "WareHouseManagement(WMS) Application is under test",
+    "description": "",
+    "id": "warehousemanagement(wms)-application-is-under-test",
+    "keyword": "Feature",
+    "uri": "WMScucumber.feature"
+  }
+]

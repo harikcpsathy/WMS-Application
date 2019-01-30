@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="WareHouseManagement(WMS) Application is under test" name="User Verifies the Login Functionality of the Application" time="0">
+<system-out><![CDATA[Given User Launch the Chrome Browser........................................skipped
+When User hit the WMS application...........................................skipped
+And User Enter the Username.................................................skipped
+And User Enter the Password.................................................skipped
+Then User Click the Login Functionality.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="WareHouseManagement(WMS) Application is under test" name="User Verifies the Purchase Menu" time="0">
+<system-out><![CDATA[Given User Click the Purchase Menu..........................................skipped
+Given User Click the Raw Materials Goods Recepit Notes......................skipped
+When User Click the Add New Button..........................................skipped
+And User Enter the Farmer Supplier Details Add New Menu.....................skipped
+And User Click the Check box Farmer.........................................skipped
+And User Contact Details Enter the Name "Test123"...........................skipped
+And User Contact Details Enter the code "F1543".............................skipped
+And User Contact Details Enter the Address Line one "Testaddress"...........skipped
+And User Contact Details Enter the  Address Line two "Testaddress2".........skipped
+And User Contact Details Enter the City/Town "Erode Tamilnadu India"........skipped
+And User Contact Details Enter the Postal code "638402".....................skipped
+And User Contact Details Enter the Landline code "044"......................skipped
+And User Contact Details Enter the Landline Number "4364325"................skipped
+And User Contact Details Enter the Mobile Number "7474747747"...............skipped
+And User Contact Details Enter the EmailID "testsys@gmail.com"..............skipped
+And User Contact Details Enter the GSTIN number "35agd32548421s"............skipped
+And User Contact Details  Click the Next Button.............................skipped
+Then User Verifies the credentials..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
