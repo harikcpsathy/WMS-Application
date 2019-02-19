@@ -1,12 +1,17 @@
 Feature: WareHouseManagement(WMS) Application is under test
 
 @login
-Scenario: User Verifies the Login Functionality of the Application
+Scenario Outline: User Verifies the Login Functionality of the Application
 Given User Launch the Chrome Browser
 When User hit the WMS application
-And User Enter the Username
-And User Enter the Password
-Then User Click the Login Functionality
+And User Enter the Username"<Username>"
+And User Enter the Password "<Password>"
+And User Click the Login Functionality
+Then User verify the userName "Sysmixadmin" in the header
+
+Examples:
+|Username   |Password   |
+|sysmixadmin|SysmixAdmin|
 
 @Purchasemenu
 Scenario Outline: User Verifies the Purchase Menu

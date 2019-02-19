@@ -187,8 +187,18 @@ public class WMSTest {
     @FindBy(xpath = "/html[1]/body[1]/form[1]/div[3]/div[1]/div[2]/div[1]") 
     private WebElement RawmaterialsHeading;
     
+    @FindBy(xpath = "//span[@id='ctl00_loginName']")
+    private WebElement Logincheck;
         
-    public WebElement getRawmaterialswebtabledate() {
+    public WebElement getLogincheck() {
+		return Logincheck;
+	}
+
+	public void setLogincheck(WebElement logincheck) {
+		Logincheck = logincheck;
+	}
+
+	public WebElement getRawmaterialswebtabledate() {
 		return Rawmaterialswebtabledate;
 	}
 
