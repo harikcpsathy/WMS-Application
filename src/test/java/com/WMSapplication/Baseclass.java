@@ -81,7 +81,7 @@ public  class Baseclass {
 	//Is Select
 	public static boolean isSelected(WebElement element) {
 		
-		boolean Selected =element.isDisplayed();
+		boolean Selected =element.isSelected();
 		return Selected;
 	}
 	
@@ -89,7 +89,7 @@ public  class Baseclass {
 	
 	public static boolean isEnable(WebElement element) {
 		
-		boolean Enable =element.isDisplayed();
+		boolean Enable =element.isEnabled();
 		return Enable;
 	}
 	
